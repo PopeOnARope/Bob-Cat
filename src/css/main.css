@@ -5,8 +5,21 @@
   position: fixed;
   margin-top: 80px; }
 
+h1,
+h2 {
+  font-family: "Monoton", cursive;
+  font-size: 50px;
+  -webkit-animation: colorchange 20s infinite alternate; }
+
+h2 {
+  font-size: 42px; }
+
+.row {
+  margin-top: 32px; }
+
 .header {
   background: #222;
+  z-index: 10;
   align-items: center;
   width: 100%;
   position: fixed;
@@ -15,10 +28,6 @@
   justify-content: space-around;
   border-bottom: 1px solid #eb009e;
   -webkit-animation: colorchangeNav 20s infinite alternate; }
-  .header h1 {
-    font-family: "Monoton", cursive;
-    font-size: 50px;
-    -webkit-animation: colorchange 20s infinite alternate; }
   .header a {
     color: #eee; }
 
@@ -27,7 +36,11 @@
   display: block; }
 
 .body {
-  background: rgba(200, 200, 200, 0.9); }
+  background: #f0f0f0;
+  padding: 32px;
+  -webkit-animation: colorchangeBody 20s infinite alternate; }
+  .body img {
+    width: 100%; }
 
 @media screen and (max-width: 992px) {
   .header {
@@ -60,26 +73,49 @@
     color: pink; } }
 @-webkit-keyframes colorchangeNav {
   0% {
-    border-bottom: 2px solid lightblue; }
+    border-bottom: 3px solid lightblue; }
   10% {
-    border-bottom: 2px solid #8e44ad; }
+    border-bottom: 3px solid #8e44ad; }
   20% {
-    border-bottom: 2px solid #1abc9c; }
+    border-bottom: 3px solid #1abc9c; }
   30% {
-    border-bottom: 2px solid #d35400; }
+    border-bottom: 3px solid #d35400; }
   40% {
-    border-bottom: 2px solid lightblue; }
+    border-bottom: 3px solid lightblue; }
   50% {
-    border-bottom: 2px solid #34495e; }
+    border-bottom: 3px solid #34495e; }
   60% {
-    border-bottom: 2px solid lightblue; }
+    border-bottom: 3px solid lightblue; }
   70% {
-    border-bottom: 2px solid #2980b9; }
+    border-bottom: 3px solid #2980b9; }
   80% {
-    border-bottom: 2px solid #f1c40f; }
+    border-bottom: 3px solid #f1c40f; }
   90% {
-    border-bottom: 2px solid #2980b9; }
+    border-bottom: 3px solid #2980b9; }
   100% {
-    border-bottom: 2px solid pink; } }
+    border-bottom: 3px solid pink; } }
+@-webkit-keyframes colorchangeBody {
+  0% {
+    border-top: 3px solid lightblue; }
+  10% {
+    border-top: 3px solid #8e44ad; }
+  20% {
+    border-top: 3px solid #1abc9c; }
+  30% {
+    border-top: 3px solid #d35400; }
+  40% {
+    border-top: 3px solid lightblue; }
+  50% {
+    border-top: 3px solid #34495e; }
+  60% {
+    border-top: 3px solid lightblue; }
+  70% {
+    border-top: 3px solid #2980b9; }
+  80% {
+    border-top: 3px solid #f1c40f; }
+  90% {
+    border-top: 3px solid #2980b9; }
+  100% {
+    border-top: 3px solid pink; } }
 
 /*# sourceMappingURL=main.css.map */
