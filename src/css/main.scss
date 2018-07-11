@@ -6,11 +6,14 @@
   margin-top: 80px;
 }
 
+img {
+  width: 100%;
+}
+
 h1,
 h2 {
   font-family: "Monoton", cursive;
   font-size: 50px;
-  // color: #eb009e !important;
   -webkit-animation: colorchange 20s infinite alternate;
 }
 
@@ -44,25 +47,28 @@ h2 {
 .body {
   background: rgb(240, 240, 240);
   padding: 32px;
-  img {
-    width: 100%;
-  }
   -webkit-animation: colorchangeBody 20s infinite alternate;
+}
+
+.hidden-md {
+  display: none;
 }
 
 @media screen and (max-width: 992px) {
   .header {
     flex-direction: column;
-    position: absolute;
+    position: inherit;
   }
   .hidden-xs {
     display: none;
   }
-  #video {
-    display: none;
+
+  .hidden-md {
+    display: block;
   }
+  #video,
   #video-overlay {
-    height: 32px;
+    display: none;
   }
 }
 li {

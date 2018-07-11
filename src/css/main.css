@@ -5,6 +5,9 @@
   position: fixed;
   margin-top: 80px; }
 
+img {
+  width: 100%; }
+
 h1,
 h2 {
   font-family: "Monoton", cursive;
@@ -39,22 +42,24 @@ h2 {
   background: #f0f0f0;
   padding: 32px;
   -webkit-animation: colorchangeBody 20s infinite alternate; }
-  .body img {
-    width: 100%; }
+
+.hidden-md {
+  display: none; }
 
 @media screen and (max-width: 992px) {
   .header {
     flex-direction: column;
-    position: absolute; }
+    position: inherit; }
 
   .hidden-xs {
     display: none; }
 
-  #video {
-    display: none; }
+  .hidden-md {
+    display: block; }
 
+  #video,
   #video-overlay {
-    height: 32px; } }
+    display: none; } }
 li {
   text-decoration: none; }
 
