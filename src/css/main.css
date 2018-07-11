@@ -48,6 +48,9 @@ h2 {
 
   #video {
     margin-top: 240px !important; } }
+li {
+  text-decoration: none; }
+
 @-webkit-keyframes colorchange {
   0% {
     color: lightblue; }
