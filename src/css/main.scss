@@ -33,11 +33,15 @@
 }
 
 .body {
+  background: rgba(200, 200, 200, 0.9);
 }
 
 @media screen and (max-width: 992px) {
   .header {
     flex-direction: column;
+  }
+  #video {
+    margin-top: 240px !important;
   }
 }
 
