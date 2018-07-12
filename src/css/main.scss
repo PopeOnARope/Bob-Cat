@@ -1,3 +1,7 @@
+* {
+  cursor: url(../assets/moneybag.png), auto;
+}
+
 #video {
   width: 100%;
   position: absolute;
@@ -10,8 +14,25 @@ img {
   width: 100%;
 }
 
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+  align-items: center;
+  background: rgba(200, 200, 200, 0.7);
+  padding: 26px;
+  border: 1px dashed #eee;
+  // border-radius: 100;
+}
+
+.skinny {
+  padding: 0 20%;
+}
+
 h1,
-h2 {
+h2,
+.h1,
+.h2 {
   font-family: "Monoton", cursive;
   font-size: 50px;
   -webkit-animation: colorchange 20s infinite alternate;
@@ -20,11 +41,20 @@ h2 {
 h2 {
   font-size: 42px;
 }
+
+h3 {
+  font-size: 42px;
+  // -webkit-animation: colorchange 20s infinite alternate;
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
 .row {
-  margin-top: 32px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  -webkit-animation: colorchangeNav 20s infinite alternate;
 }
 .header {
-  background: #222;
+  background: #eee;
   z-index: 10;
   align-items: center;
   width: 100%;
@@ -35,17 +65,20 @@ h2 {
   border-bottom: 1px solid #eb009e;
   -webkit-animation: colorchangeNav 20s infinite alternate;
   a {
-    color: #eee;
+    color: #222;
   }
 }
 
 #video-overlay {
   width: 100%;
-  display: block;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 .body {
-  background: rgb(240, 240, 240);
+  background: #eee;
+  color: #222;
   padding: 32px;
   -webkit-animation: colorchangeBody 20s infinite alternate;
 }
@@ -79,7 +112,7 @@ li {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: lightblue;
+    color: blue;
   }
 
   10% {
@@ -95,7 +128,7 @@ li {
   }
 
   40% {
-    color: lightblue;
+    color: blue;
   }
 
   50% {
@@ -103,7 +136,7 @@ li {
   }
 
   60% {
-    color: lightblue;
+    color: blue;
   }
 
   70% {
@@ -124,7 +157,7 @@ li {
 
 @-webkit-keyframes colorchangeNav {
   0% {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid blue;
   }
 
   10% {
@@ -140,7 +173,7 @@ li {
   }
 
   40% {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid blue;
   }
 
   50% {
@@ -148,7 +181,7 @@ li {
   }
 
   60% {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid blue;
   }
 
   70% {
@@ -169,7 +202,7 @@ li {
 
 @-webkit-keyframes colorchangeBody {
   0% {
-    border-top: 3px solid lightblue;
+    border-top: 3px solid blue;
   }
 
   10% {
@@ -185,7 +218,7 @@ li {
   }
 
   40% {
-    border-top: 3px solid lightblue;
+    border-top: 3px solid blue;
   }
 
   50% {
@@ -193,7 +226,7 @@ li {
   }
 
   60% {
-    border-top: 3px solid lightblue;
+    border-top: 3px solid blue;
   }
 
   70% {
