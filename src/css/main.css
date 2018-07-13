@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Elianto;
+  src: url(../assets/Elianto-Regular.otf); }
+body {
+  font-size: 16px; }
+
 #video {
   width: 100%;
   z-index: -1;
@@ -10,10 +16,10 @@ img {
 .call-to-action {
   display: flex;
   flex-direction: column;
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
   align-items: center;
   background: rgba(200, 200, 200, 0.7);
-  padding: 26px;
+  padding: 1.5rem;
   border: 1px dashed #222; }
 
 .skinny {
@@ -24,7 +30,7 @@ h2,
 .h1,
 .h2 {
   font-family: "Monoton", cursive;
-  font-size: 55px;
+  font-size: 3.5rem;
   -webkit-animation: colorchange 20s infinite alternate; }
 
 .flex-container {
@@ -35,11 +41,13 @@ h2,
 nav h1 {
   letter-spacing: 10px; }
 
-h2 {
-  font-size: 42px; }
+h2,
+.h2 {
+  font-size: 3rem;
+  font-family: Elianto; }
 
 h3 {
-  font-size: 42px;
+  font-size: 2.25rem;
   font-weight: lighter;
   margin-bottom: 16px; }
 
@@ -85,10 +93,12 @@ h3 {
   display: none; }
 
 @media screen and (min-width: 500) {
-  h1,
-  .h1 {
+  nav h1 {
     letter-spacing: 10px; } }
 @media screen and (max-width: 992px) {
+  body {
+    font-size: 14px; }
+
   .header {
     flex-direction: column;
     position: inherit; }
@@ -104,10 +114,14 @@ h3 {
   p {
     text-align: center; }
 
-  h1,
+  nav h1,
   .h1 {
-    font-size: 45px;
-    letter-spacing: normal; }
+    font-size: 2.25rem;
+    letter-spacing: 5px; }
+
+  h2,
+  .h2 {
+    font-size: 2rem; }
 
   .hidden-xs {
     display: none; }
