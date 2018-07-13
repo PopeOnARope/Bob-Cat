@@ -1,6 +1,10 @@
+// div {
+//   cursor: url(http://sexbruise.herokuapp.com/src/assets/moneybag.png), auto !important;
+// }
+
 #video {
   width: 100%;
-  position: absolute;
+  // position: absolute;
   z-index: -1;
   position: fixed;
   margin-top: 80px;
@@ -10,21 +14,58 @@ img {
   width: 100%;
 }
 
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+  align-items: center;
+  background: rgba(200, 200, 200, 0.7);
+  padding: 26px;
+  border: 1px dashed #eee;
+  // border-radius: 100;
+}
+
+.skinny {
+  padding: 0 20%;
+}
+
 h1,
-h2 {
+h2,
+.h1,
+.h2 {
   font-family: "Monoton", cursive;
-  font-size: 50px;
+  font-size: 55px;
+
   -webkit-animation: colorchange 20s infinite alternate;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav h1 {
+  letter-spacing: 10px;
 }
 
 h2 {
   font-size: 42px;
 }
+
+h3 {
+  font-size: 42px;
+  // -webkit-animation: colorchange 20s infinite alternate;
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
 .row {
   margin-top: 32px;
+  padding-bottom: 32px;
+  -webkit-animation: colorchangeNav 20s infinite alternate;
 }
 .header {
-  background: #222;
+  // background: url(../assets/space.jpg);
+  background: #eee;
   z-index: 10;
   align-items: center;
   width: 100%;
@@ -35,17 +76,21 @@ h2 {
   border-bottom: 1px solid #eb009e;
   -webkit-animation: colorchangeNav 20s infinite alternate;
   a {
-    color: #eee;
+    z-index: 100;
+    color: #222;
   }
 }
 
 #video-overlay {
   width: 100%;
-  display: block;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 .body {
-  background: rgb(240, 240, 240);
+  background: #eee;
+  color: #222;
   padding: 32px;
   -webkit-animation: colorchangeBody 20s infinite alternate;
 }
@@ -58,6 +103,17 @@ h2 {
   .header {
     flex-direction: column;
     position: inherit;
+  }
+  .skinny {
+    padding: 0 5%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    text-align: center;
   }
   .hidden-xs {
     display: none;
@@ -79,7 +135,7 @@ li {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: lightblue;
+    color: blue;
   }
 
   10% {
@@ -95,7 +151,7 @@ li {
   }
 
   40% {
-    color: lightblue;
+    color: blue;
   }
 
   50% {
@@ -103,7 +159,7 @@ li {
   }
 
   60% {
-    color: lightblue;
+    color: blue;
   }
 
   70% {
@@ -124,7 +180,7 @@ li {
 
 @-webkit-keyframes colorchangeNav {
   0% {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid blue;
   }
 
   10% {
@@ -140,7 +196,7 @@ li {
   }
 
   40% {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid blue;
   }
 
   50% {
@@ -148,7 +204,7 @@ li {
   }
 
   60% {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 3px solid blue;
   }
 
   70% {
@@ -169,7 +225,7 @@ li {
 
 @-webkit-keyframes colorchangeBody {
   0% {
-    border-top: 3px solid lightblue;
+    border-top: 3px solid blue;
   }
 
   10% {
@@ -185,7 +241,7 @@ li {
   }
 
   40% {
-    border-top: 3px solid lightblue;
+    border-top: 3px solid blue;
   }
 
   50% {
@@ -193,7 +249,7 @@ li {
   }
 
   60% {
-    border-top: 3px solid lightblue;
+    border-top: 3px solid blue;
   }
 
   70% {
