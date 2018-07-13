@@ -78,6 +78,10 @@ h3 {
 .hidden-md {
   display: none; }
 
+@media screen and (min-width: 500) {
+  h1,
+  .h1 {
+    letter-spacing: 10px; } }
 @media screen and (max-width: 992px) {
   .header {
     flex-direction: column;
@@ -93,6 +97,11 @@ h3 {
   h5,
   p {
     text-align: center; }
+
+  h1,
+  .h1 {
+    font-size: 45px;
+    letter-spacing: normal; }
 
   .hidden-xs {
     display: none; }

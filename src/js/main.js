@@ -13,7 +13,6 @@ $(() => {
     const $yt = $(".youtube");
     const ytWidth = $yt.width();
     $yt.css("height", `${ytWidth * 0.5625}`);
-    console.log("resized");
   };
   setTimeout(function() {
     setAllTheSizes();
@@ -23,11 +22,11 @@ $(() => {
    * Change page title when out of focus
    */
   function check() {
-    if(document.hasFocus() == lastFocusStatus) return;
+    if (document.hasFocus() == lastFocusStatus) return;
     lastFocusStatus = !lastFocusStatus;
-    statusEl.innerText = lastFocusStatus ? 'Sexbruise?' : 'Baby Come Back!';
+    statusEl.innerText = lastFocusStatus ? "Sexbruise?" : "Baby Come Back!";
   }
-  window.statusEl = document.getElementById('status');
+  window.statusEl = document.getElementById("status");
   window.lastFocusStatus = document.hasFocus();
   check();
   setInterval(check, 200);
