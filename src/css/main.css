@@ -1,9 +1,5 @@
-* {
-  cursor: url(../assets/moneybag.png), auto; }
-
 #video {
   width: 100%;
-  position: absolute;
   z-index: -1;
   position: fixed;
   margin-top: 80px; }
@@ -28,8 +24,16 @@ h2,
 .h1,
 .h2 {
   font-family: "Monoton", cursive;
-  font-size: 50px;
+  font-size: 55px;
   -webkit-animation: colorchange 20s infinite alternate; }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+nav h1 {
+  letter-spacing: 10px; }
 
 h2 {
   font-size: 42px; }
@@ -40,8 +44,8 @@ h3 {
   margin-bottom: 16px; }
 
 .row {
-  margin-top: 16px;
-  padding-bottom: 16px;
+  margin-top: 32px;
+  padding-bottom: 32px;
   -webkit-animation: colorchangeNav 20s infinite alternate; }
 
 .header {
@@ -56,6 +60,7 @@ h3 {
   border-bottom: 1px solid #eb009e;
   -webkit-animation: colorchangeNav 20s infinite alternate; }
   .header a {
+    z-index: 100;
     color: #222; }
 
 #video-overlay {
@@ -77,6 +82,17 @@ h3 {
   .header {
     flex-direction: column;
     position: inherit; }
+
+  .skinny {
+    padding: 0 5%; }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    text-align: center; }
 
   .hidden-xs {
     display: none; }
