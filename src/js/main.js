@@ -19,6 +19,19 @@ $(() => {
     setAllTheSizes();
   }, 100);
 
+  /**
+   * Change page title when out of focus
+   */
+  function check() {
+    if(document.hasFocus() == lastFocusStatus) return;
+    lastFocusStatus = !lastFocusStatus;
+    statusEl.innerText = lastFocusStatus ? 'Sexbruise?' : 'Baby Come Back!';
+  }
+  window.statusEl = document.getElementById('status');
+  window.lastFocusStatus = document.hasFocus();
+  check();
+  setInterval(check, 200);
+
   $(window).resize(setAllTheSizes());
 
   $(".navlink").click(e => {
