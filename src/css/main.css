@@ -14,7 +14,7 @@ img {
   align-items: center;
   background: rgba(200, 200, 200, 0.7);
   padding: 26px;
-  border: 1px dashed #eee; }
+  border: 1px dashed #222; }
 
 .skinny {
   padding: 0 20%; }
@@ -49,7 +49,7 @@ h3 {
   -webkit-animation: colorchangeNav 20s infinite alternate; }
 
 .header {
-  background: #eee;
+  background: #222;
   z-index: 10;
   align-items: center;
   width: 100%;
@@ -57,11 +57,17 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 1px solid #eb009e;
   -webkit-animation: colorchangeNav 20s infinite alternate; }
   .header a {
     z-index: 100;
-    color: #222; }
+    color: #fff; }
+
+.secondary-header {
+  display: flex;
+  color: blue;
+  -webkit-animation: colorchange 20s infinite alternate; }
+  .secondary-header img {
+    height: 25px; }
 
 #video-overlay {
   width: 100%;
@@ -70,8 +76,8 @@ h3 {
   align-items: center; }
 
 .body {
-  background: #eee;
-  color: #222;
+  background: #222;
+  color: #fff;
   padding: 32px;
   -webkit-animation: colorchangeBody 20s infinite alternate; }
 

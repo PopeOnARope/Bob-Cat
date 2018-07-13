@@ -21,7 +21,7 @@ img {
   align-items: center;
   background: rgba(200, 200, 200, 0.7);
   padding: 26px;
-  border: 1px dashed #eee;
+  border: 1px dashed #222;
   // border-radius: 100;
 }
 
@@ -65,7 +65,7 @@ h3 {
 }
 .header {
   // background: url(../assets/space.jpg);
-  background: #eee;
+  background: #222;
   z-index: 10;
   align-items: center;
   width: 100%;
@@ -73,11 +73,27 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 1px solid #eb009e;
-  -webkit-animation: colorchangeNav 20s infinite alternate;
   a {
     z-index: 100;
-    color: #222;
+    color: #fff;
+  }
+  -webkit-animation: colorchangeNav 20s infinite alternate;
+}
+
+.secondary-header {
+  display: flex;
+  // flex-direction: row;
+  // justify-content: space-around;
+  // align-items: center;
+  // width: 100%;
+  // margin-top: 85px;
+  // background: #222;
+  // height: 25px;
+  // padding: 16px;
+  color: blue;
+  -webkit-animation: colorchange 20s infinite alternate;
+  img {
+    height: 25px;
   }
 }
 
@@ -89,8 +105,8 @@ h3 {
 }
 
 .body {
-  background: #eee;
-  color: #222;
+  background: #222;
+  color: #fff;
   padding: 32px;
   -webkit-animation: colorchangeBody 20s infinite alternate;
 }
