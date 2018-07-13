@@ -24,7 +24,7 @@ $(() => {
   function check() {
     if (document.hasFocus() == lastFocusStatus) return;
     lastFocusStatus = !lastFocusStatus;
-    statusEl.innerText = lastFocusStatus ? "Sexbruise?" : "Baby Come Back!";
+    statusEl.innerText = lastFocusStatus ? "Sexbruise?" : "Pornhub";
   }
   window.statusEl = document.getElementById("status");
   window.lastFocusStatus = document.hasFocus();
