@@ -73,7 +73,8 @@ h3 {
 .secondary-header {
   display: flex;
   color: blue;
-  -webkit-animation: colorchange 20s infinite alternate; }
+  -webkit-animation: colorchange 20s infinite alternate;
+  justify-content: center; }
   .secondary-header img {
     height: 25px; }
 
@@ -91,6 +92,9 @@ h3 {
 
 .hidden-md {
   display: none; }
+
+.flex-container-row {
+  flex-direction: row; }
 
 @media screen and (min-width: 500) {
   nav h1 {

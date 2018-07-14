@@ -89,6 +89,7 @@ h3 {
   display: flex;
   color: blue;
   -webkit-animation: colorchange 20s infinite alternate;
+  justify-content: center;
   img {
     height: 25px;
   }
@@ -110,6 +111,10 @@ h3 {
 
 .hidden-md {
   display: none;
+}
+
+.flex-container-row {
+  flex-direction: row;
 }
 
 @media screen and (min-width: 500) {
