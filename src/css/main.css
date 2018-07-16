@@ -30,7 +30,7 @@ h2,
 .h1,
 .h2 {
   font-family: "Monoton", cursive;
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   -webkit-animation: colorchange 20s infinite alternate; }
 
 .flex-container {
@@ -72,9 +72,9 @@ h3 {
 
 .secondary-header {
   display: flex;
-  color: blue;
+  color: teal;
   -webkit-animation: colorchange 20s infinite alternate;
-  justify-content: center; }
+  justify-content: space-around; }
   .secondary-header img {
     height: 25px; }
 
@@ -94,7 +94,9 @@ h3 {
   display: none; }
 
 .flex-container-row {
-  flex-direction: row; }
+  flex-direction: row;
+  width: 33.33%;
+  justify-content: space-around; }
 
 @media screen and (min-width: 500) {
   nav h1 {
@@ -141,7 +143,7 @@ li {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: blue; }
+    color: teal; }
   10% {
     color: #8e44ad; }
   20% {
@@ -149,11 +151,11 @@ li {
   30% {
     color: #d35400; }
   40% {
-    color: blue; }
+    color: teal; }
   50% {
     color: #34495e; }
   60% {
-    color: blue; }
+    color: teal; }
   70% {
     color: #2980b9; }
   80% {
@@ -164,7 +166,7 @@ li {
     color: pink; } }
 @-webkit-keyframes colorchangeNav {
   0% {
-    border-bottom: 3px solid blue; }
+    border-bottom: 3px solid teal; }
   10% {
     border-bottom: 3px solid #8e44ad; }
   20% {
@@ -172,11 +174,11 @@ li {
   30% {
     border-bottom: 3px solid #d35400; }
   40% {
-    border-bottom: 3px solid blue; }
+    border-bottom: 3px solid teal; }
   50% {
     border-bottom: 3px solid #34495e; }
   60% {
-    border-bottom: 3px solid blue; }
+    border-bottom: 3px solid teal; }
   70% {
     border-bottom: 3px solid #2980b9; }
   80% {
@@ -187,7 +189,7 @@ li {
     border-bottom: 3px solid pink; } }
 @-webkit-keyframes colorchangeBody {
   0% {
-    border-top: 3px solid blue; }
+    border-top: 3px solid teal; }
   10% {
     border-top: 3px solid #8e44ad; }
   20% {
@@ -195,11 +197,11 @@ li {
   30% {
     border-top: 3px solid #d35400; }
   40% {
-    border-top: 3px solid blue; }
+    border-top: 3px solid teal; }
   50% {
     border-top: 3px solid #34495e; }
   60% {
-    border-top: 3px solid blue; }
+    border-top: 3px solid teal; }
   70% {
     border-top: 3px solid #2980b9; }
   80% {

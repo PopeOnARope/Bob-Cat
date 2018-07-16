@@ -38,7 +38,7 @@ h2,
 .h1,
 .h2 {
   font-family: "Monoton", cursive;
-  font-size: 3.5rem;
+  font-size: 2.75rem;
 
   -webkit-animation: colorchange 20s infinite alternate;
 }
@@ -87,9 +87,9 @@ h3 {
 
 .secondary-header {
   display: flex;
-  color: blue;
+  color: teal;
   -webkit-animation: colorchange 20s infinite alternate;
-  justify-content: center;
+  justify-content: space-around;
   img {
     height: 25px;
   }
@@ -115,6 +115,8 @@ h3 {
 
 .flex-container-row {
   flex-direction: row;
+  width: 33.33%;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 500) {
@@ -170,7 +172,7 @@ li {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: blue;
+    color: teal;
   }
 
   10% {
@@ -186,7 +188,7 @@ li {
   }
 
   40% {
-    color: blue;
+    color: teal;
   }
 
   50% {
@@ -194,7 +196,7 @@ li {
   }
 
   60% {
-    color: blue;
+    color: teal;
   }
 
   70% {
@@ -215,7 +217,7 @@ li {
 
 @-webkit-keyframes colorchangeNav {
   0% {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid teal;
   }
 
   10% {
@@ -231,7 +233,7 @@ li {
   }
 
   40% {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid teal;
   }
 
   50% {
@@ -239,7 +241,7 @@ li {
   }
 
   60% {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid teal;
   }
 
   70% {
@@ -260,7 +262,7 @@ li {
 
 @-webkit-keyframes colorchangeBody {
   0% {
-    border-top: 3px solid blue;
+    border-top: 3px solid teal;
   }
 
   10% {
@@ -276,7 +278,7 @@ li {
   }
 
   40% {
-    border-top: 3px solid blue;
+    border-top: 3px solid teal;
   }
 
   50% {
@@ -284,7 +286,7 @@ li {
   }
 
   60% {
-    border-top: 3px solid blue;
+    border-top: 3px solid teal;
   }
 
   70% {
