@@ -94,8 +94,9 @@ h3 {
 }
 .secondary-header {
   display: flex;
-  color: teal;
-  -webkit-animation: colorchange 20s infinite alternate;
+  // color: teal;
+  width: 100%;
+  // -webkit-animation: colorchange 20s infinite alternate;
   justify-content: space-around;
   img {
     height: 25px;
