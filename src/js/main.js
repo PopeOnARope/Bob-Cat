@@ -16,7 +16,13 @@ $(() => {
   };
   setTimeout(function() {
     setAllTheSizes();
+    $("img.img-responsive").remove();
   }, 100);
+
+  setTimeout(function() {
+    console.log("rem");
+    console.log($(".img-responsive"));
+  }, 1000);
 
   $(window).resize(setAllTheSizes());
 

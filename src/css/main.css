@@ -71,6 +71,9 @@ h3 {
     z-index: 100;
     color: #fff; }
 
+.img-responsive {
+  display: none !important; }
+
 .secondary-header {
   display: flex;
   color: teal;
