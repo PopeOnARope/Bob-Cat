@@ -123,18 +123,25 @@ h3 {
   justify-content: space-around;
 }
 
+.bg-img {
+  filter: brightness(50%);
+}
+
 @media screen and (min-width: 500) {
   nav h1 {
     letter-spacing: 10px;
   }
 }
+
 @media screen and (max-width: 992px) {
   body {
     font-size: 14px;
   }
   .header {
     flex-direction: column;
-    position: inherit;
+    position: absolute;
+    background: none;
+    margin-top: 20%;
   }
   .skinny {
     padding: 0 5%;
@@ -149,7 +156,7 @@ h3 {
   }
   nav h1,
   .h1 {
-    font-size: 2.25rem;
+    font-size: 4rem;
     letter-spacing: 5px;
   }
   h2,
@@ -170,6 +177,20 @@ h3 {
 }
 li {
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav h1,
+  .h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav h1,
+  .h1 {
+    font-size: 2rem;
+  }
 }
 
 // key @keyframes
