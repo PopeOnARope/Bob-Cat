@@ -18,12 +18,6 @@ $(() => {
     setAllTheSizes();
   }, 100);
 
-
-  window.statusEl = document.getElementById("status");
-  window.lastFocusStatus = document.hasFocus();
-  check();
-  setInterval(check, 200);
-
   $(window).resize(setAllTheSizes());
 
   $(".navlink").click(e => {
