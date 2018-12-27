@@ -25,7 +25,7 @@ img {
   align-items: center;
   background: rgba(200, 200, 200, 0.7);
   padding: 1.5rem;
-  border: 1px dashed #222;
+  // border: 1px dashed #000;
   // border-radius: 100;
 }
 
@@ -39,8 +39,8 @@ h2,
 .h2 {
   font-family: "Monoton", cursive;
   font-size: 2.75rem;
-
-  -webkit-animation: colorchange 20s infinite alternate;
+  // -webkit-animation: colorchange 20s infinite alternate;
+  color: #9568d8;
 }
 .flex-container {
   display: flex;
@@ -52,10 +52,15 @@ nav h1 {
   letter-spacing: 10px;
 }
 
+.main-heading {
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
 h2,
 .h2 {
   font-size: 3rem;
   font-family: Elianto;
+  font-family: "Audiowide", cursive;
 }
 
 h3 {
@@ -67,10 +72,9 @@ h3 {
 .row {
   margin-top: 32px;
   padding-bottom: 32px;
-  -webkit-animation: colorchangeNav 20s infinite alternate;
 }
 .header {
-  background: #222;
+  background: #000;
   z-index: 10;
   align-items: center;
   width: 100%;
@@ -82,7 +86,7 @@ h3 {
     z-index: 100;
     color: #fff;
   }
-  -webkit-animation: colorchangeNav 20s infinite alternate;
+  // -webkit-animation: colorchangeNav 20s infinite alternate;
 }
 
 .secondary-header {
@@ -103,7 +107,7 @@ h3 {
 }
 
 .body {
-  background: #222;
+  background: #000;
   color: #fff;
   padding: 32px;
   -webkit-animation: colorchangeBody 20s infinite alternate;

@@ -18,14 +18,7 @@ $(() => {
     setAllTheSizes();
   }, 100);
 
-  /**
-   * Change page title when out of focus
-   */
-  function check() {
-    if (document.hasFocus() == lastFocusStatus) return;
-    lastFocusStatus = !lastFocusStatus;
-    statusEl.innerText = lastFocusStatus ? "Sexbruise?" : "baby come back!";
-  }
+
   window.statusEl = document.getElementById("status");
   window.lastFocusStatus = document.hasFocus();
   check();
