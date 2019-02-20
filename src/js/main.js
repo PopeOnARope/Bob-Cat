@@ -8,11 +8,16 @@ $(() => {
     const overlayHeight =
       videoHeight > windowHeight ? windowHeight : videoHeight;
     videoOverlay.setAttribute("style", `height: ${overlayHeight}px`);
+    // debugger
 
     // resize youtube iframe based on screen width
     const $yt = $(".youtube");
+
+    const $img = $(".img-container");
     const ytWidth = $yt.width();
     $yt.css("height", `${ytWidth * 0.5625}`);
+
+    $img.css("height", windowHeight);
   };
   setTimeout(function() {
     setAllTheSizes();
