@@ -15,7 +15,6 @@ $(() => {
 
     const $img = $(".img-container");
     const ytWidth = $yt.width();
-    debugger;
     $yt.css("height", `${ytWidth * 0.5625}`);
 
     $img.css("height", windowHeight);
