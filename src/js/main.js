@@ -15,6 +15,7 @@ $(() => {
 
     const $img = $(".img-container");
     const ytWidth = $yt.width();
+    debugger;
     $yt.css("height", `${ytWidth * 0.5625}`);
 
     $img.css("height", windowHeight);
@@ -24,10 +25,7 @@ $(() => {
     $("img.img-responsive").remove();
   }, 100);
 
-  setTimeout(function() {
-    console.log("rem");
-    console.log($(".img-responsive"));
-  }, 1000);
+  setTimeout(function() {}, 1000);
 
   $(window).resize(setAllTheSizes());
 
