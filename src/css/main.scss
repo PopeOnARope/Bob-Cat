@@ -40,7 +40,6 @@ h1 h2,
 .h1,
 .h2 {
   font-family: "Monoton", cursive;
-  // -webkit-animation: colorchange 20s infinite alternate;
   color: #9568d8;
 }
 .flex-container {
@@ -53,12 +52,12 @@ h1 {
   letter-spacing: 10px;
   margin-bottom: 30px;
   font-family: "Monoton", cursive;
-  -webkit-animation: colorchange 20s infinite alternate;
+  -webkit-animation: colorchange 1s infinite alternate;
   font-size: 6rem;
 }
 
 .main-heading {
-  -webkit-animation: colorchange 20s infinite alternate;
+  -webkit-animation: colorchange 1s infinite alternate;
 }
 
 h2,
@@ -70,7 +69,7 @@ h2,
 
 h3 {
   font-size: 2.25rem;
-  // -webkit-animation: colorchange 20s infinite alternate;
+  // -webkit-animation: colorchange 1s infinite alternate;
   font-weight: lighter;
   margin-bottom: 16px;
 }
@@ -91,7 +90,7 @@ h3 {
     z-index: 100;
     color: #fff;
   }
-  // -webkit-animation: colorchangeNav 20s infinite alternate;
+  // -webkit-animation: colorchangeNav 1s infinite alternate;
 }
 
 .img-responsive {
@@ -101,7 +100,7 @@ h3 {
   display: flex;
   // color: teal;
   width: 100%;
-  // -webkit-animation: colorchange 20s infinite alternate;
+  // -webkit-animation: colorchange 1s infinite alternate;
   justify-content: space-around;
   img {
     height: 25px;
@@ -119,7 +118,6 @@ h3 {
   background: #000;
   color: #fff;
   padding: 32px;
-  -webkit-animation: colorchangeBody 20s infinite alternate;
 }
 
 .hidden-md {
@@ -238,136 +236,10 @@ li {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: teal;
+    color: rgb(191, 186, 206);
   }
-
-  10% {
-    color: #8e44ad;
-  }
-
-  20% {
-    color: #1abc9c;
-  }
-
-  30% {
-    color: #d35400;
-  }
-
-  40% {
-    color: teal;
-  }
-
-  50% {
-    color: #34495e;
-  }
-
-  60% {
-    color: teal;
-  }
-
-  70% {
-    color: #2980b9;
-  }
-  80% {
-    color: #f1c40f;
-  }
-
-  90% {
-    color: #2980b9;
-  }
-
   100% {
-    color: pink;
-  }
-}
-
-@-webkit-keyframes colorchangeNav {
-  0% {
-    border-bottom: 3px solid teal;
-  }
-
-  10% {
-    border-bottom: 3px solid #8e44ad;
-  }
-
-  20% {
-    border-bottom: 3px solid #1abc9c;
-  }
-
-  30% {
-    border-bottom: 3px solid #d35400;
-  }
-
-  40% {
-    border-bottom: 3px solid teal;
-  }
-
-  50% {
-    border-bottom: 3px solid #34495e;
-  }
-
-  60% {
-    border-bottom: 3px solid teal;
-  }
-
-  70% {
-    border-bottom: 3px solid #2980b9;
-  }
-  80% {
-    border-bottom: 3px solid #f1c40f;
-  }
-
-  90% {
-    border-bottom: 3px solid #2980b9;
-  }
-
-  100% {
-    border-bottom: 3px solid pink;
-  }
-}
-
-@-webkit-keyframes colorchangeBody {
-  0% {
-    border-top: 3px solid teal;
-  }
-
-  10% {
-    border-top: 3px solid #8e44ad;
-  }
-
-  20% {
-    border-top: 3px solid #1abc9c;
-  }
-
-  30% {
-    border-top: 3px solid #d35400;
-  }
-
-  40% {
-    border-top: 3px solid teal;
-  }
-
-  50% {
-    border-top: 3px solid #34495e;
-  }
-
-  60% {
-    border-top: 3px solid teal;
-  }
-
-  70% {
-    border-top: 3px solid #2980b9;
-  }
-  80% {
-    border-top: 3px solid #f1c40f;
-  }
-
-  90% {
-    border-top: 3px solid #2980b9;
-  }
-
-  100% {
-    border-top: 3px solid pink;
+    color: rgb(255, 255, 255);
   }
 }
 
