@@ -109,7 +109,7 @@ h3 {
   width: auto; }
 
 .img-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://imgur.com/WWWdR5v");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://imgur.com/WWWdR5v.jpg");
   background-size: 100%;
   background-size: cover;
   background-position: 83%; }
