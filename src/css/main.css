@@ -75,6 +75,19 @@ h3 {
     z-index: 100;
     color: #fff; }
 
+._nav {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end; }
+  ._nav .sm-icon {
+    padding: 2px 6px; }
+    ._nav .sm-icon img {
+      height: 25px;
+      width: 25px; }
+
 .img-responsive {
   display: none !important; }
 

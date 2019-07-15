@@ -93,6 +93,22 @@ h3 {
   // -webkit-animation: colorchangeNav 1s infinite alternate;
 }
 
+._nav {
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  padding: 8px;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  .sm-icon {
+    padding: 2px 6px;
+    img {
+      height: 25px;
+      width: 25px;
+    }
+  }
+}
+
 .img-responsive {
   display: none !important;
 }
