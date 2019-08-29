@@ -1,6 +1,9 @@
 @font-face {
   font-family: Elianto;
   src: url(../assets/Elianto-Regular.otf); }
+li {
+  list-style: none; }
+
 body {
   font-size: 16px; }
 
@@ -121,11 +124,24 @@ h3 {
   filter: brightness(50%);
   width: auto; }
 
-.img-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://imgur.com/WWWdR5v.jpg");
-  background-size: 100%;
-  background-size: cover;
-  background-position: 83%; }
+@media screen and (max-width: 767px) {
+  .img-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://imgur.com/WWWdR5v.jpg");
+    background-position: 83%;
+    background-size: 100%;
+    background-size: cover; } }
+@media screen and (min-width: 768px) {
+  .img-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://i.imgur.com/LgcGut9.jpg");
+    background-position: 45%;
+    background-size: 100%;
+    background-size: cover; } }
+@media screen and (min-width: 992px) {
+  .img-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://i.imgur.com/lyyK3WR.jpg");
+    background-position: 70%;
+    background-size: 100%;
+    background-size: cover; } }
 
 .down {
   position: absolute;
