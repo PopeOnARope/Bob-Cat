@@ -82,7 +82,7 @@ $(() => {
       ({ url, title, img }) =>
         `<li style="margin-right: 16px;">
             <a href="${url}">
-            <div class="card" style="width: 18rem; color: black; background: #eee; height: 100%;">
+            <div class="card" style="width: 18rem; color: black; background: #ddd; height: 100%;">
              <img class="card-img-top" src="${img}" alt="Card image cap">
              <div class="card-body">
                <p class="card-text">${title}</p>
