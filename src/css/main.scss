@@ -56,7 +56,7 @@ h1 {
   letter-spacing: 10px;
   margin-bottom: 30px;
   font-family: "Monoton", cursive;
-  -webkit-animation: colorchange 1s infinite alternate;
+  -webkit-animation: colorchange 2s infinite alternate;
   font-size: 6rem;
 }
 
@@ -276,10 +276,10 @@ li {
 
 @-webkit-keyframes colorchange {
   0% {
-    color: rgb(191, 186, 206);
+    color: rgba(191, 186, 206, 0.3);
   }
   100% {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.6);
   }
 }
 
