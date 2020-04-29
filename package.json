@@ -12,6 +12,6 @@
     "bootstrap": "^4.1.1",
     "grabit": "^1.0.1",
     "grabity": "^1.0.5",
-    "jquery": "^3.3.1"
+    "jquery": "^3.5.0"
   }
 }
