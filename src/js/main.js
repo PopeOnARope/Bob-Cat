@@ -69,9 +69,9 @@ const setAllTheSizes = () => {
 
 $(() => {
   setTimeout(function() {
-    setAllTheSizes();
+    // setAllTheSizes();
     $("img.img-responsive").remove();
-  }, 100);
+  }, 200);
 
   setTimeout(function() {}, 1000);
   // iterate over news stories and generate widgets

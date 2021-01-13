@@ -116,6 +116,10 @@ h3 {
   flex-direction: column-reverse;
   align-items: center; }
 
+.youtube {
+  height: 480px;
+  width: 640px; }
+
 .body {
   background: #000;
   color: #fff;
