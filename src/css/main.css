@@ -60,6 +60,9 @@ h2,
   font-family: "Moon", cursive;
   margin-bottom: 32px; }
 
+h2 {
+  text-align: center; }
+
 h3 {
   font-size: 2.25rem;
   font-weight: lighter;
