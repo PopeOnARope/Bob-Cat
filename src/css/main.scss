@@ -12,6 +12,19 @@ li {
   list-style: none;
 }
 
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  margin-top: 32px;
+  background: #9568d8;
+  border: #9568d8;
+  :hover {
+    background: #aa75e5;
+    border: #aa75e5;
+  }
+}
 body {
   font-size: 16px;
   background: rgba(0, 0, 0, 1);
