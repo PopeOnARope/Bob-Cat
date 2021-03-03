@@ -21,30 +21,16 @@ li {
 body {
   font-size: 16px;
   background: black;
-  color: #fff;
-  padding: 48px; }
-
-#video {
-  width: 100%;
-  z-index: -1;
-  position: fixed;
-  margin-top: 70px; }
+  color: #fff; }
 
 img {
   width: 100%; }
 
-.call-to-action {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 4rem;
-  align-items: center;
-  padding: 1.5rem;
-  position: absolute;
-  top: 30%;
-  color: white; }
-
 .skinny {
   padding: 0 20%; }
+
+.pv12 {
+  padding: 12px; }
 
 .flex-container {
   display: flex;
@@ -52,6 +38,7 @@ img {
   align-items: center; }
 
 .container {
+  padding: 0px;
   max-width: 1024px; }
 
 h1 {
@@ -128,24 +115,6 @@ h3 {
   .secondary-header img {
     height: 25px; }
 
-#video-overlay {
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center; }
-
-.youtube {
-  height: 480px;
-  width: 640px; }
-
-.hidden-md {
-  display: none; }
-
-.flex-container-row {
-  flex-direction: row;
-  width: 33.33%;
-  justify-content: space-around; }
-
 .bg-img {
   filter: brightness(50%);
   width: auto; }
@@ -168,17 +137,6 @@ h3 {
     background-position: 70%;
     background-size: 100%;
     background-size: cover; } }
-
-.down {
-  position: absolute;
-  bottom: 40px;
-  color: white;
-  animation: bounce 2s infinite;
-  animation-delay: 4s;
-  height: 20px;
-  filter: invert(100%); }
-  .down img {
-    height: 50px; }
 
 @media screen and (min-width: 500) {
   nav h1 {
@@ -223,13 +181,13 @@ li {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 3rem; }
+    font-size: 2.5rem; }
 
   .call-to-action h3 {
     font-size: 1rem; } }
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 2rem; } }
+    font-size: 1.75rem; } }
 @-webkit-keyframes colorchange {
   0% {
     color: rgba(191, 186, 206, 0.3); }
